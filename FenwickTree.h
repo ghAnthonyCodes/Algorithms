@@ -12,8 +12,8 @@ class FenwickTree {
 
   // Initiate tree, internal tree is 1-based indexing, but external isn't
   FenwickTree(int N) {
-    this->N = N + 2;
-    this->T = std::vector<T_t>(N + 2, 0);
+    this->N = N + 1;
+    this->T = std::vector<T_t>(N + 1, 0);
   }
 
 #if defined(RANGE_ADD)
