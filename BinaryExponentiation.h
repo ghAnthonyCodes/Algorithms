@@ -1,8 +1,6 @@
 #define ll long long
 
-/******************************/
-/* returns a^b                */
-/*****************************/
+// returns a^b
 ll binPow(ll a, ll b) {
    ll answer = 1;
    while (b) {
