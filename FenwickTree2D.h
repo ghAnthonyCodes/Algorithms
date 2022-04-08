@@ -39,6 +39,5 @@ class FenwickTree2D {
 
   void clear(void) {
     T = vvi_t(M + 1, vi_t(N + 1, 0));
-    A = vvi_t(M + 1, vi_t(N + 1, 0));
   }
 };
